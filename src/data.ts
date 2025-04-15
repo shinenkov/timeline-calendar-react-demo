@@ -39,7 +39,7 @@ export const rangesData: RangeType[] = [
   },
   {
     id: 5,
-    startDate: '2025-03-19',
+    startDate: '2025-02-19',
     endDate: '2025-04-12',
     userId: 2,
     eventType: 0,
@@ -91,6 +91,15 @@ export const rangesData: RangeType[] = [
     statusType: 1,
     comment: 'string',
   },
+  {
+    id: 11,
+    startDate: '2025-04-13',
+    endDate: '2025-04-13',
+    userId: 4,
+    eventType: 3,
+    statusType: 1,
+    comment: 'string',
+  }
 ];
 
 type UserLocale = {
